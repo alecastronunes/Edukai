@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-image: url("../img/Banner_minhaarea.png");
+    height: 200px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+
+.navbar-logo {
+    height: 40px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    /* color: #160635; */
+    color: #FFF;
+    font-weight: 500;
+    transition: color 0.5s;
+}
+
+.navbar-menu a:hover {
+    color: #6F5192;
+    font-weight: bolder;
+}
+
+.profile-header h2 {
+    color: #39205C;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    padding-bottom: 10px;
+}
+
+.profile-header p {
+    color: #39205C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 55px;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: -100px auto 0;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    height: 390px;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #E5E7EB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.profile-icon svg {
+    width: 50px;
+    height: 50px;
+    color: #9CA3AF;
+}
+
+.section-dados {
+    color: #39205C;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.section-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 100%;
+}
+
+.form-group p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.container-form {
+    max-width: 600px;
+    margin: -90px auto 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: #39205C;
+}
+
+.section-title {
+    margin-top: 70px;
+}
+
+.form-group input {
+    width: 100%;
+    height: 48px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: #EAE4D4;
+}
+
+input::placeholder {
+    color: #39205C;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-logo img {
+    width: 168px;
+    height: 53px;
+}
