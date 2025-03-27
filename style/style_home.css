@@ -1,0 +1,168 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Inter", sans-serif;
+ }
+
+ body {
+     background-color: #f4f4f4;
+     color: #333;
+ }
+
+ .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 30px;
+     background-color: #FFF;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+ }
+
+ .logo {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .logo img {
+     height: 40px;
+ }
+
+ .nav-menu {
+     display: flex;
+     gap: 20px;
+ }
+
+ .nav-menu a {
+     text-decoration: none;
+     color: #160635;
+     font-weight: 500;
+     transition: color 0.5s;
+ }
+
+ .nav-menu a:hover {
+     color: #6F5192;
+     font-weight: bolder;
+ }
+
+ .hero-banner {
+     position: relative;
+     height: 400px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     overflow: hidden;
+ }
+
+ .hero-content {
+     text-align: center;
+     color: #FFF;
+     z-index: 2;
+     position: relative;
+ }
+
+ .character {
+     position: absolute;
+     right: 10%;
+     bottom: -50px;
+     max-height: 350px;
+     z-index: 1;
+ }
+
+ .screens {
+     position: absolute;
+     display: flex;
+     height: 100%;
+ }
+
+ .screens img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .materias-section {
+     padding: 40px 30px;
+     text-align: center;
+ }
+
+ .materias-section span {
+     font-size: 20px;
+ }
+
+ .materias-title {
+     margin-bottom: 30px;
+     font-size: 30px;
+     color: #39205C;
+ }
+
+ .carousel {
+     position: relative;
+     width: 100%;
+     max-width: 800px;
+     margin: 0 auto;
+     overflow: hidden;
+     display: flex;
+     align-items: center;
+     border-radius: 10px;
+     transition: 0.7s;
+ }
+
+ .carousel:hover {
+     opacity: 0.9;
+     transform: scale(1.02);
+ }
+
+
+ .carousel-item {
+     display: none;
+     width: 100%;
+     text-align: center;
+     position: relative;
+ }
+
+ .carousel-item.active {
+     display: block;
+ }
+
+ .carousel-item img {
+     width: 100%;
+     max-height: 300px;
+     object-fit: cover;
+ }
+
+ .carousel-image {
+     margin-bottom: 30px;
+ }
+
+ .carousel-nav {
+     background: #39205C;
+     color: white;
+     border: none;
+     font-size: 2rem;
+     padding: 10px;
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 10;
+ }
+
+ .carousel-nav:first-child {
+     left: 10px;
+ }
+
+ .carousel-nav:last-child {
+     right: 10px;
+ }
+
+ .overlay {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: #39205C;
+     color: white;
+     padding: 10px;
+     text-align: center;
+ }
