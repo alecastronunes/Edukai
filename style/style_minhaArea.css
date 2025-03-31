@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu a {
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    color: #39205C;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #160635;
+    font-weight: 700;
+}
+
+.hero-banner {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.content h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.notebook-img {
+    height: 120px;
+    right: 10%;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #311b58;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.semester-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 250px;
+    height: 2px;
+    background-color: #160635;
+    margin: 0 15px;
+}
+
+.semester-text {
+    color: #39205C;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.grades-header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.subject-header {
+    width: 20%;
+}
+
+.semester-header {
+    display: flex;
+    width: 80%;
+}
+
+.semester-col {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #39205C;
+}
+
+.presence-col {
+    flex: 1.5;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #39205C;
+}
+
+.grade-row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.subject-cell {
+    width: 20%;
+    background-color: #39205C;
+    color: #EAE4D4;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.hilight-cell {
+    background-color: #EAE4D4;
+    color: #39205C;
+    font-weight: 600;
+}
+
+.grades-cells {
+    display: flex;
+    width: 80%;
+}
+
+.grade-cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0 2px;
+}
+
+.presence-cell {
+    flex: 1.5;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+
+.purple-bg {
+    background-color: #39205C;
+}
+
+.beige-bg {
+    background-color: #EAE4D4;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 168px;
+    height: 53px;
+}

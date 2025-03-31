@@ -29,6 +29,7 @@ header {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+    transition: 0.5s;
 }
 
 .login-btn:hover {
@@ -184,7 +185,7 @@ header {
 .card {
     display: flex;
     flex-direction: column;
-    width: 256px;
+    width: 30%;
     height: 367px;
     background-color: #EAE4D4;
     border-radius: 10px;
@@ -255,5 +256,6 @@ footer {
 }
 
 footer img {
-    height: 30px;
+    width: 168px;
+    height: 53px;
 }
